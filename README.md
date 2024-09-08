@@ -87,7 +87,7 @@ Contract: DeelProtocol
 Address: 0xe43d0A3ebBbDb183A8eD9E2df91177F0B234d7AF
 
 
-## BaseSepolia 
+## Arbutrum Sepolia 
 Contract: arbitrum Sepolia 
 Address: 0x029d95963354be45230E9105597abE08e6cA6F7b
 
