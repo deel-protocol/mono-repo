@@ -12,7 +12,7 @@ We have two submodules :
 - The `deel-sc` repository is the smart contract repository.
 - The `deel-ui` repository is the frontend repository.
 
-### Partners Intergated
+## Partners Intergated
 - **Kinto**: We have used Kinto to have a KYC for both the job poster and the job applier. This is crucial for our application as both the job applier and the job poster must be KYCed to ensure compliance. Kinto is used at the very beginning of our product lifecycle when the user has to create his DEEL ID. Only after verifying through Kinto a user gets to complete his verification and gets onboarded into our application. 
 - **Sign Protocol**: Sign Protocol is used to attest that work has been completed through the contractor and the job poster needs to attest that the work has been completed as well. For this matter two functions are used here: claimCompletedWork() and confirmCompletedWork, which are both used by different wallet addresses from either the job poster or the contractor.
 - **XMTP**: We have used XMTP to create one-to-one conversations between the job poster and the job applicant. Transaction receipts can also be shared in the chat. This is a crucial feature for our platform because without conversation, improvements are not possible.
