@@ -1,0 +1,6 @@
+[submodule "deel-sc"]
+	path = deel-sc
+	url = https://github.com/deel-protocol/deel-sc.git
+[submodule "deel-ui"]
+	path = deel-ui
+	url = https://github.com/deel-protocol/deel-ui.git
