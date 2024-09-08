@@ -93,7 +93,7 @@ Address: 0xe43d0A3ebBbDb183A8eD9E2df91177F0B234d7AF
 Contract: arbitrum Sepolia 
 Address: 0x029d95963354be45230E9105597abE08e6cA6F7b
 
-## Mroph
+## Morph
 Contract: DeelProtocol
 Address: 0xC924276a1D827b5E30655fBA6a66195644b070dE
 
