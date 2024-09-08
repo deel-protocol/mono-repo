@@ -19,13 +19,6 @@ We have two submodules :
 - **Chainlink**: CCIP is used for cross chain payments, messaging and attestations. We designed the protocol to be 1:N contracts where the 1 contract is considered the Main repository and Reciever of the protocol state. The N contracts are deployed across multiple chains that use their corresponding Routers to cross updates to the Main Reciever contract..All the contracts have the same source but act as a Sender or Reciever depending on the chain they are deployed.   Base sepolia being the main chain.
 - **Morph**: We have used Morph to deploy our smart contracts. We have chosen Morph since our application is very consumer focused, which aligns perfectly with Morph's mission! We would be glad to build even more great consumer apps in the future during the ETHGlobal hackathons and hope Morph will be a sponsor yet again. 
 
-### Key Features:
-- **KYC Verification**: All users undergo KYC verification via **Kinto**, ensuring a secure and fraud-free environment.
-- **Cross-Chain Payments**: Freelancers and clients can transact using multiple cryptocurrencies across different blockchain networks through **Chainlink CCIP**.
-- **Attestation System**: **Sign Protocol** is used to verify completed tasks and provide an immutable, transparent history of freelancer performance.
-- **Reputation System**: Freelancers and clients can earn ratings and feedback to build their reputation, which is visible on the platform for increased trust.
-- **Secure Messaging**: Communication between users is encrypted using **XMTP** to protect privacy.
-
 
 # `deel-ui` Repo
 
