@@ -1,4 +1,4 @@
-# mono-repo
+# Deel Protocol
 A decentralized Web3 freelance platform that connects KYC-verified users, enables cross-chain payments, and features secure messaging, attestation, and reputation systems.
 
 ## Overview
@@ -23,7 +23,6 @@ We have two submodules :
 - **Attestation System**: **Sign Protocol** is used to verify completed tasks and provide an immutable, transparent history of freelancer performance.
 - **Reputation System**: Freelancers and clients can earn ratings and feedback to build their reputation, which is visible on the platform for increased trust.
 - **Secure Messaging**: Communication between users is encrypted using **XMTP** to protect privacy.
-
 
 
 # `deel-ui` Repo
@@ -65,3 +64,21 @@ bun dev
 ```
 
 Then, open `localhost:3000`
+
+
+# `deel-sc` Repo
+
+## Usage
+
+### Installation
+
+```shell
+cp .env.example .env
+npm install
+npx hardhat compile
+npx hardhat test
+```
+
+
+
+#
