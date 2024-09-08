@@ -1,1 +1,25 @@
 # mono-repo
+A decentralized Web3 freelance platform that connects KYC-verified users, enables cross-chain payments, and features secure messaging, attestation, and reputation systems.
+
+## Overview
+
+Deel Protocol is designed to bridge freelancers and clients within a secure, decentralized ecosystem. The platform ensures authenticity and trustworthiness through a KYC (Know Your Customer) process, creating a space where freelancers and clients can collaborate with confidence. 
+
+## Repository Structure
+We have two submodules :
+- The `deel-sc` repository is the smart contract repository.
+- The `deel-ui` repository is the frontend repository.
+
+### Partners Intergated
+- **Kinto**: .
+- **Sign Protocol**: 
+- **XMTP**: 
+- **Chainlink**: 
+- **Morph**: 
+
+### Key Features:
+- **KYC Verification**: All users undergo KYC verification via **Kinto**, ensuring a secure and fraud-free environment.
+- **Cross-Chain Payments**: Freelancers and clients can transact using multiple cryptocurrencies across different blockchain networks through **Chainlink CCIP**.
+- **Attestation System**: **Sign Protocol** is used to verify completed tasks and provide an immutable, transparent history of freelancer performance.
+- **Reputation System**: Freelancers and clients can earn ratings and feedback to build their reputation, which is visible on the platform for increased trust.
+- **Secure Messaging**: Communication between users is encrypted using **XMTP** to protect privacy.
