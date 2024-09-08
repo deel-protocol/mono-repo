@@ -23,3 +23,45 @@ We have two submodules :
 - **Attestation System**: **Sign Protocol** is used to verify completed tasks and provide an immutable, transparent history of freelancer performance.
 - **Reputation System**: Freelancers and clients can earn ratings and feedback to build their reputation, which is visible on the platform for increased trust.
 - **Secure Messaging**: Communication between users is encrypted using **XMTP** to protect privacy.
+
+
+
+# `deel-ui` Repo
+
+This is built using
+- NextJS
+- TypeScript
+- Wagmi
+- viem
+- IDKit
+- TailwindCSS
+- ShadCn
+- Aceternity UI
+  
+## Getting Started
+
+First install the dependencies:
+
+```bash
+pnpm i
+#or
+yarn
+#or
+npm i
+```
+
+Paste the project ids in the `.env`
+
+Then, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Then, open `localhost:3000`
