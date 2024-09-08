@@ -5,6 +5,8 @@ A decentralized Web3 freelance platform that connects KYC-verified users, enable
 
 Deel Protocol is designed to bridge freelancers and clients within a secure, decentralized ecosystem. The platform ensures authenticity and trustworthiness through a KYC (Know Your Customer) process, creating a space where freelancers and clients can collaborate with confidence. 
 
+
+
 ## Repository Structure
 We have two submodules :
 - The `deel-sc` repository is the smart contract repository.
@@ -91,7 +93,9 @@ Address: 0xe43d0A3ebBbDb183A8eD9E2df91177F0B234d7AF
 Contract: arbitrum Sepolia 
 Address: 0x029d95963354be45230E9105597abE08e6cA6F7b
 
-## Sepolia 
+## Mroph
+Contract: DeelProtocol
+Address: 0xC924276a1D827b5E30655fBA6a66195644b070dE
 
 
 # Code Organization
